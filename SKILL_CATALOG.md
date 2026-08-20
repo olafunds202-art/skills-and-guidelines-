@@ -15,7 +15,7 @@ Then add:
 - one or more stack packs from `skills/stacks/`
 - `skills/tdd-and-testing.md` when implementing or fixing code
 - `skills/review-and-security.md` for review-sensitive work
-- non-coding skills from `skills/non-coding/` when researching or debugging
+- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, or handoff
 
 ---
 
@@ -56,7 +56,7 @@ Use before declaring a task complete.
 
 ## Stack packs
 
-## Web app and frontend
+### Web app and frontend
 
 - `skills/stacks/nextjs-typescript.md`
 - `skills/stacks/react-vite-typescript.md`
@@ -65,7 +65,7 @@ Use before declaring a task complete.
 
 Use these for websites, dashboards, landing pages, and browser-facing UI work.
 
-## Backend and APIs
+### Backend and APIs
 
 - `skills/stacks/node-typescript-api.md`
 - `skills/stacks/express-node-api.md`
@@ -76,7 +76,7 @@ Use these for websites, dashboards, landing pages, and browser-facing UI work.
 
 Use these for server-side APIs, backends, auth, services, and data-processing endpoints.
 
-## Data, BaaS, and ORM
+### Data, BaaS, and ORM
 
 - `skills/stacks/supabase-postgres.md`
 - `skills/stacks/firebase-web-mobile.md`
@@ -84,7 +84,7 @@ Use these for server-side APIs, backends, auth, services, and data-processing en
 
 Use these when schema, rules, policies, queries, migrations, or generated client behavior matter.
 
-## Mobile and desktop
+### Mobile and desktop
 
 - `skills/stacks/flutter-dart.md`
 - `skills/stacks/react-native.md`
@@ -92,7 +92,7 @@ Use these when schema, rules, policies, queries, migrations, or generated client
 
 Use these for mobile apps, desktop apps, navigation, permissions, and platform-specific delivery.
 
-## Extensions, automation, and scripting
+### Extensions, automation, and scripting
 
 - `skills/stacks/chrome-extension.md`
 - `skills/stacks/python-scraping-automation.md`
@@ -100,7 +100,7 @@ Use these for mobile apps, desktop apps, navigation, permissions, and platform-s
 
 Use these for browser extensions, bots, automations, scraping pipelines, and Google Workspace workflows.
 
-## Testing and infrastructure
+### Testing and infrastructure
 
 - `skills/stacks/playwright-testing.md`
 - `skills/stacks/docker-containerization.md`
@@ -113,20 +113,39 @@ Use these when the main challenge is testing, packaging, or deployment/runtime b
 
 ## Non-coding skills
 
-### `skills/non-coding/research-workflow.md`
+### Research and debugging
+
+#### `skills/non-coding/research-workflow.md`
 Use before implementation when the main need is learning, comparison, or evidence gathering.
 
-### `skills/non-coding/debugging-and-investigation.md`
+#### `skills/non-coding/debugging-and-investigation.md`
 Use when behavior is broken, flaky, or unclear and you need a disciplined investigation path.
 
-### `skills/non-coding/bug-reproduction-and-triage.md`
+#### `skills/non-coding/bug-reproduction-and-triage.md`
 Use when a vague bug report needs to become a clear engineering task.
 
-### `skills/non-coding/root-cause-analysis.md`
+#### `skills/non-coding/root-cause-analysis.md`
 Use after the issue is understood enough to explain the true cause and prevention steps.
 
-### `skills/non-coding/incident-report-and-handoff.md`
-Use to hand over or document debugging/incident work cleanly.
+#### `skills/non-coding/incident-report-and-handoff.md`
+Use to hand over or document debugging or incident work cleanly.
+
+### Planning and documentation
+
+#### `skills/non-coding/project-brief-and-requirements.md`
+Use to turn rough ideas or requests into a clear problem statement, scope, and success criteria.
+
+#### `skills/non-coding/task-scoping-and-breakdown.md`
+Use to break large or risky requests into phases, checkpoints, and decision points.
+
+#### `skills/non-coding/decision-recording-and-adrs.md`
+Use to preserve important technical or workflow decisions and their trade-offs.
+
+#### `skills/non-coding/documentation-sync-and-knowledge-capture.md`
+Use to keep docs, memory files, and reusable knowledge aligned with the current state of work.
+
+#### `skills/non-coding/status-reporting-and-handoff.md`
+Use to hand work to a user, teammate, or future session clearly.
 
 ---
 
@@ -140,6 +159,12 @@ For end-of-task quality gate reporting.
 
 ### `templates/adr-template.md`
 For architectural decision records.
+
+### `templates/project-brief-template.md`
+For turning a rough idea into a usable brief.
+
+### `templates/status-handoff-template.md`
+For structured session, team, or client handoffs.
 
 ---
 
@@ -193,7 +218,7 @@ Use:
 - operating guide
 - coding standards
 - `skills/stacks/python-scraping-automation.md`
-- `skills/stacks/python-fastapi.md` if an API/service also exists
+- `skills/stacks/python-fastapi.md` if an API or service also exists
 - debugging/investigation
 - root-cause analysis for flaky failures
 
@@ -214,6 +239,15 @@ Use:
 - the matching framework pack such as Next.js or React/Vite
 - review and security
 - verification
+- project brief and requirements during discovery
+- status handoff for delivery and revisions
+
+### Early-stage product discovery or scoping
+Use:
+- `skills/non-coding/project-brief-and-requirements.md`
+- `skills/non-coding/task-scoping-and-breakdown.md`
+- `skills/non-coding/decision-recording-and-adrs.md`
+- `templates/project-brief-template.md`
 
 ---
 

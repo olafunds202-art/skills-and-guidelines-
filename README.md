@@ -41,11 +41,13 @@ Those concepts map well to Arena. Claude-specific runtime features do not map di
 ```text
 skills-and-guides/
 ├── README.md
+├── SKILL_CATALOG.md
 ├── CONTRIBUTING.md
 ├── package.json
 ├── guides/
 ├── skills/
-│   └── stacks/
+│   ├── stacks/
+│   └── non-coding/
 ├── templates/
 ├── memory/
 ├── ci-templates/
@@ -53,13 +55,14 @@ skills-and-guides/
 └── .github/
 ```
 
-## Core guides
+## Start here
 
-- `guides/arena-coding-conversion-analysis.md` — what was kept, changed, or dropped from the source repo
+- `SKILL_CATALOG.md` — complete map of skills, guides, templates, and recommended combinations
 - `guides/arena-agent-coding-operating-guide.md` — main operating manual for Arena coding work
+- `guides/arena-coding-conversion-analysis.md` — what was kept, changed, or dropped from the source repo
 - `guides/project-memory-system.md` — repo-stored memory pattern for multi-session work
 
-## Core skills
+## Core coding skills
 
 - `skills/planning-and-architecture.md`
 - `skills/tdd-and-testing.md`
@@ -81,11 +84,28 @@ The repo now includes packs across:
 
 See `SKILL_CATALOG.md` for the full list and recommended combinations.
 
+## Non-coding skills
+
+The repo also includes non-coding skills in `skills/non-coding/` for:
+
+- research and evidence gathering
+- debugging and investigation
+- bug reproduction and triage
+- root-cause analysis
+- incident handoff
+- project briefs and requirements
+- task scoping and breakdown
+- ADRs and decision recording
+- documentation sync and knowledge capture
+- status reporting and handoff
+
 ## Templates
 
 - `templates/implementation-plan-template.md`
 - `templates/verification-report-template.md`
 - `templates/adr-template.md`
+- `templates/project-brief-template.md`
+- `templates/status-handoff-template.md`
 
 ## Project memory templates
 
@@ -134,16 +154,11 @@ Recommended destination inside a project:
 ## Suggested usage
 
 1. Start with the operating guide.
-2. Use the relevant skill for the task:
-   - planning and architecture
-   - TDD and testing
-   - coding standards
-   - review and security
-   - build fix and refactor
-   - verification
+2. Use the relevant skill for the task.
 3. Add the relevant stack pack.
-4. Add project-specific rules in the target repo.
-5. Add project memory files when work becomes multi-session or multi-contributor.
+4. Add non-coding skills when the job is research, triage, planning, docs, or handoff.
+5. Add project-specific rules in the target repo.
+6. Add project memory files when work becomes multi-session or multi-contributor.
 
 ## Arena-specific principles
 
@@ -163,9 +178,8 @@ See `LICENSE` and `NOTICE`.
 
 Good future additions include:
 
-- more stack packs
-- language-specific variants
-- deployment/release guides
 - security hardening packs
-- product/planning skill packs
+- release/runbook packs
+- design-to-build workflow guides
+- content/SEO operations guides
 - repo bootstrapping templates
