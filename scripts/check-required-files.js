@@ -4,6 +4,7 @@ const path = require('path');
 const root = process.cwd();
 const required = [
   'README.md',
+  'SKILL_CATALOG.md',
   'LICENSE',
   'NOTICE',
   'CONTRIBUTING.md',

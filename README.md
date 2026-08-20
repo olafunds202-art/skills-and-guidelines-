@@ -68,20 +68,18 @@ skills-and-guides/
 - `skills/build-fix-and-refactor.md`
 - `skills/verification.md`
 
-## Stack-specific starter packs
+## Stack packs
 
-- `skills/stacks/nextjs-typescript.md`
-- `skills/stacks/react-vite-typescript.md`
-- `skills/stacks/node-typescript-api.md`
-- `skills/stacks/python-fastapi.md`
-- `skills/stacks/python-scraping-automation.md`
-- `skills/stacks/flutter-dart.md`
-- `skills/stacks/chrome-extension.md`
-- `skills/stacks/google-apps-script.md`
-- `skills/stacks/supabase-postgres.md`
-- `skills/stacks/client-website-delivery.md`
+The repo now includes packs across:
 
-These are v1 starter packs. More can be added per stack, framework, or delivery pattern.
+- web app and frontend
+- backend and APIs
+- data, BaaS, and ORM
+- mobile and desktop
+- extensions, automation, and scripting
+- testing and infrastructure
+
+See `SKILL_CATALOG.md` for the full list and recommended combinations.
 
 ## Templates
 
