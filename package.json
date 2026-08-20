@@ -1,0 +1,16 @@
+{
+  "name": "skills-and-guidelines",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Arena-compatible open-source skills and guidelines for AI-assisted software delivery.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "check:files": "node scripts/check-required-files.js",
+    "check:memory": "node scripts/check-memory-templates.js",
+    "check:stacks": "node scripts/check-stack-packs.js",
+    "verify": "node scripts/verify.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

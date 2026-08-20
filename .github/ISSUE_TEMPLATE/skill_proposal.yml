@@ -1,0 +1,29 @@
+name: Skill proposal
+description: Propose a new skill pack or stack-specific guide
+labels: [skill, enhancement]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What kind of work should this skill support?
+    validations:
+      required: true
+  - type: textarea
+    id: activation
+    attributes:
+      label: When should it be activated?
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow outline
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification expectations

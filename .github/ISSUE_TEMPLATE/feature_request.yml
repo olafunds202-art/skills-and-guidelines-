@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a new guide, template, workflow, or automation improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or gap
+      description: What is missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed addition
+      description: What should be added?
+    validations:
+      required: true
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use cases
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes

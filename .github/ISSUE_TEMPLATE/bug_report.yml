@@ -1,0 +1,28 @@
+name: Bug report
+description: Report a problem in a guide, skill, template, or workflow
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: File or area
+      description: Which file(s) or section(s) are affected?
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
