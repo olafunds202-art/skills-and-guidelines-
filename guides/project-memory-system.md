@@ -8,12 +8,20 @@ These files are not magic. They are simply durable context that both humans and 
 
 ## Recommended files
 
+### Lightweight memory set
+
 - `docs/PROJECT_CONTEXT.md`
 - `docs/DECISIONS.md`
 - `docs/OPEN_QUESTIONS.md`
 - `docs/DELETION_LOG.md`
 
-Templates for these are included in `memory/`.
+### Heavier long-running project tracking
+
+- `CONTINUATION_PROMPT.md`
+- `docs/REGRESSION_CHECK.md`
+- `snapshots/regression/`
+
+Templates for the lightweight set are included in `memory/`. Additional templates for continuation and regression are included in `templates/`.
 
 ## How to use them
 

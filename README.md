@@ -61,6 +61,7 @@ skills-and-guides/
 - `guides/arena-agent-coding-operating-guide.md` — main operating manual for Arena coding work
 - `guides/arena-coding-conversion-analysis.md` — what was kept, changed, or dropped from the source repo
 - `guides/project-memory-system.md` — repo-stored memory pattern for multi-session work
+- `guides/project-tracking-and-regression-system.md` — living handoff docs and risky-change baseline system
 
 ## Core coding skills
 
@@ -98,6 +99,12 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - ADRs and decision recording
 - documentation sync and knowledge capture
 - status reporting and handoff
+- automation and workflow design
+- integration and trigger mapping
+- automation reliability and runbooks
+- project continuation tracking
+- regression snapshots and baselines
+- humanizing and polishing prose
 
 ## Templates
 
@@ -106,6 +113,9 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - `templates/adr-template.md`
 - `templates/project-brief-template.md`
 - `templates/status-handoff-template.md`
+- `templates/continuation-prompt-template.md`
+- `templates/regression-check-template.md`
+- `templates/automation-workflow-template.md`
 
 ## Project memory templates
 
@@ -122,6 +132,12 @@ Recommended destination inside a project:
 - `docs/DECISIONS.md`
 - `docs/OPEN_QUESTIONS.md`
 - `docs/DELETION_LOG.md`
+
+For more durable project handoff and risky-change tracking, also consider:
+
+- `CONTINUATION_PROMPT.md`
+- `docs/REGRESSION_CHECK.md`
+- `snapshots/regression/`
 
 ## CI and automation
 
@@ -154,11 +170,12 @@ Recommended destination inside a project:
 ## Suggested usage
 
 1. Start with the operating guide.
-2. Use the relevant skill for the task.
+2. Use the relevant coding skill for the task.
 3. Add the relevant stack pack.
-4. Add non-coding skills when the job is research, triage, planning, docs, or handoff.
+4. Add non-coding skills when the job is research, triage, planning, automation, docs, handoff, or text polishing.
 5. Add project-specific rules in the target repo.
 6. Add project memory files when work becomes multi-session or multi-contributor.
+7. For active long-running repos, consider a tracked `CONTINUATION_PROMPT.md` and `REGRESSION_CHECK` system.
 
 ## Arena-specific principles
 

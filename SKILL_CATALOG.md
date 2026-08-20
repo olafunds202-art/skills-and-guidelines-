@@ -15,7 +15,7 @@ Then add:
 - one or more stack packs from `skills/stacks/`
 - `skills/tdd-and-testing.md` when implementing or fixing code
 - `skills/review-and-security.md` for review-sensitive work
-- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, or handoff
+- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, automation, handoff, or editing
 
 ---
 
@@ -29,6 +29,9 @@ Use to understand how the source repo was translated into Arena form.
 
 ### `guides/project-memory-system.md`
 Use when work spans multiple sessions and durable repo context is needed.
+
+### `guides/project-tracking-and-regression-system.md`
+Use when a project needs a living handoff record and before-state regression baselines for risky changes.
 
 ---
 
@@ -147,6 +150,28 @@ Use to keep docs, memory files, and reusable knowledge aligned with the current 
 #### `skills/non-coding/status-reporting-and-handoff.md`
 Use to hand work to a user, teammate, or future session clearly.
 
+### Automation and workflow operations
+
+#### `skills/non-coding/automation-workflow-design.md`
+Use to design bots, integrations, scheduled jobs, and multi-step automations from goal through failure handling.
+
+#### `skills/non-coding/integration-and-trigger-mapping.md`
+Use to map systems, triggers, data handoffs, permissions, and ownership across a workflow.
+
+#### `skills/non-coding/automation-reliability-and-runbooks.md`
+Use to define retry policy, logging, recovery, replay, and operational runbooks for important automations.
+
+### Project continuity and editing support
+
+#### `skills/non-coding/project-continuation-tracking.md`
+Use when a project should maintain a tracked `CONTINUATION_PROMPT.md` that future sessions must read first.
+
+#### `skills/non-coding/regression-snapshot-and-baselines.md`
+Use before risky changes to preserve the known-good before-state and comparison artifacts.
+
+#### `skills/non-coding/humanizer.md`
+Use to make prose sound more natural and less obviously AI-generated without changing meaning or facts.
+
 ---
 
 ## Templates
@@ -166,6 +191,15 @@ For turning a rough idea into a usable brief.
 ### `templates/status-handoff-template.md`
 For structured session, team, or client handoffs.
 
+### `templates/continuation-prompt-template.md`
+For creating a tracked project handoff document that survives across sessions.
+
+### `templates/regression-check-template.md`
+For recording risky-change baselines and before-state evidence.
+
+### `templates/automation-workflow-template.md`
+For designing workflow stages, triggers, integrations, and failure handling.
+
 ---
 
 ## Memory templates
@@ -176,6 +210,12 @@ Use these to create durable project context inside consumer repos:
 - `memory/DECISIONS.template.md`
 - `memory/OPEN_QUESTIONS.template.md`
 - `memory/DELETION_LOG.template.md`
+
+For longer-lived project tracking, also consider:
+
+- `CONTINUATION_PROMPT.md`
+- `docs/REGRESSION_CHECK.md`
+- `snapshots/regression/`
 
 ---
 
@@ -203,6 +243,7 @@ Use:
 - `skills/stacks/flutter-dart.md`
 - verification
 - debugging/investigation when diagnosing mobile issues
+- project continuation tracking for longer-lived apps
 
 ### Chrome extension
 Use:
@@ -211,6 +252,7 @@ Use:
 - review and security
 - `skills/stacks/chrome-extension.md`
 - playwright testing if browser automation tests exist
+- regression snapshots before manifest or content-script rewrites
 - verification
 
 ### Python scraper or bot
@@ -219,6 +261,9 @@ Use:
 - coding standards
 - `skills/stacks/python-scraping-automation.md`
 - `skills/stacks/python-fastapi.md` if an API or service also exists
+- automation workflow design
+- integration and trigger mapping
+- automation reliability and runbooks
 - debugging/investigation
 - root-cause analysis for flaky failures
 
@@ -227,6 +272,9 @@ Use:
 - operating guide
 - coding standards
 - `skills/stacks/google-apps-script.md`
+- automation workflow design
+- integration and trigger mapping
+- automation reliability and runbooks
 - verification
 - incident handoff if trigger or quota problems occur
 
@@ -248,6 +296,13 @@ Use:
 - `skills/non-coding/task-scoping-and-breakdown.md`
 - `skills/non-coding/decision-recording-and-adrs.md`
 - `templates/project-brief-template.md`
+
+### Long-running or high-context repo
+Use:
+- `skills/non-coding/project-continuation-tracking.md`
+- `templates/continuation-prompt-template.md`
+- `guides/project-tracking-and-regression-system.md`
+- memory templates as supporting files
 
 ---
 

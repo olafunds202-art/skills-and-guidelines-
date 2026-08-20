@@ -29,6 +29,7 @@ Before changing code:
 
 - restate the task in clear terms
 - inspect the current implementation
+- check for project tracking docs such as `CONTINUATION_PROMPT.md`, `docs/PROJECT_CONTEXT.md`, and `docs/DECISIONS.md`
 - identify constraints and assumptions
 - identify affected files and likely risks
 
