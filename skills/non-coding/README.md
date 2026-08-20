@@ -35,6 +35,30 @@ These skills cover important work that surrounds implementation but is not purel
 - `client-handoff-and-training.md`
 - `maintenance-and-support-workflow.md`
 
+### Deployment and operations
+
+- `release-planning-and-cutover.md`
+- `environment-and-config-management.md`
+- `rollback-and-recovery-planning.md`
+- `operational-readiness-and-monitoring.md`
+- `post-release-verification.md`
+
+### Content, SEO, and website operations
+
+- `content-structure-and-page-planning.md`
+- `on-page-seo-and-metadata.md`
+- `content-publishing-and-update-ops.md`
+- `website-qa-and-content-review.md`
+- `analytics-and-conversion-checks.md`
+
+### Design-to-build workflow
+
+- `design-intake-and-ui-scope.md`
+- `design-reference-analysis.md`
+- `design-implementation-planning.md`
+- `ui-consistency-and-component-mapping.md`
+- `design-review-and-polish-loop.md`
+
 ### Project continuity and editing support
 
 - `project-continuation-tracking.md`
@@ -55,6 +79,9 @@ Use these when the job is to:
 - keep decisions and documentation current
 - design or stabilize automations and mixed-system workflows
 - run client projects from intake through launch and handoff
+- prepare releases and production cutovers safely
+- manage website content, metadata, QA, and update operations
+- turn design references into structured implementation work
 - keep a living project tracking doc up to date
 - preserve before-state baselines before risky changes
 - humanize or polish prose without changing meaning
@@ -65,9 +92,9 @@ A common sequence is:
 
 1. research or investigate
 2. clarify scope and requirements if needed
-3. map workflow or client delivery behavior where relevant
+3. map workflow, release, design, or client-delivery behavior where relevant
 4. identify root cause or execution plan
 5. preserve a regression baseline before risky changes when needed
 6. implement with the relevant coding and stack skills
 7. verify and document the outcome
-8. hand off, launch, or humanize final deliverables as needed
+8. launch, hand off, or polish final deliverables as needed

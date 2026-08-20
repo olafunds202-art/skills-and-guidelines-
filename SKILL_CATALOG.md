@@ -15,7 +15,7 @@ Then add:
 - one or more stack packs from `skills/stacks/`
 - `skills/tdd-and-testing.md` when implementing or fixing code
 - `skills/review-and-security.md` for review-sensitive work
-- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, automation, client delivery, handoff, or editing
+- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, automation, client delivery, release operations, website operations, design translation, handoff, or editing
 
 ---
 
@@ -35,6 +35,15 @@ Use when a project needs a living handoff record and before-state regression bas
 
 ### `guides/client-project-delivery-system.md`
 Use for client-facing work that must move cleanly from intake to launch and support.
+
+### `guides/deployment-release-operations-system.md`
+Use for release planning, cutover, rollback, post-release verification, and operational readiness.
+
+### `guides/content-seo-website-operations-system.md`
+Use for content planning, metadata, publishing workflow, analytics, and website QA.
+
+### `guides/design-to-build-workflow-system.md`
+Use for translating visual references or design direction into implementation and review workflows.
 
 ---
 
@@ -184,6 +193,57 @@ Use to deliver a project cleanly with operating instructions and support boundar
 #### `skills/non-coding/maintenance-and-support-workflow.md`
 Use to structure post-launch support, triage, and maintenance rules.
 
+### Deployment and operations
+
+#### `skills/non-coding/release-planning-and-cutover.md`
+Use to plan release scope, cutover order, smoke tests, and rollback triggers.
+
+#### `skills/non-coding/environment-and-config-management.md`
+Use to map environment differences, config dependencies, and secret-handling boundaries.
+
+#### `skills/non-coding/rollback-and-recovery-planning.md`
+Use to prepare recovery steps before risky changes or releases.
+
+#### `skills/non-coding/operational-readiness-and-monitoring.md`
+Use to confirm whether important paths are observable and supportable in production.
+
+#### `skills/non-coding/post-release-verification.md`
+Use to verify critical flows after deployment in the real target environment.
+
+### Content, SEO, and website operations
+
+#### `skills/non-coding/content-structure-and-page-planning.md`
+Use to structure pages around audience, intent, CTA, and content hierarchy.
+
+#### `skills/non-coding/on-page-seo-and-metadata.md`
+Use to review titles, descriptions, headings, indexing assumptions, and social previews.
+
+#### `skills/non-coding/content-publishing-and-update-ops.md`
+Use to define repeatable publishing, review, and rollback steps for content changes.
+
+#### `skills/non-coding/website-qa-and-content-review.md`
+Use to review content-heavy pages and websites before launch or after major updates.
+
+#### `skills/non-coding/analytics-and-conversion-checks.md`
+Use to verify conversion flows and event tracking actually work.
+
+### Design-to-build workflow
+
+#### `skills/non-coding/design-intake-and-ui-scope.md`
+Use to turn design references or UI direction into a scoped implementation plan.
+
+#### `skills/non-coding/design-reference-analysis.md`
+Use to break screenshots or mockups into layout, hierarchy, and component observations.
+
+#### `skills/non-coding/design-implementation-planning.md`
+Use to stage UI work from reusable foundations through polish.
+
+#### `skills/non-coding/ui-consistency-and-component-mapping.md`
+Use to centralize repeated patterns and reduce bespoke UI drift.
+
+#### `skills/non-coding/design-review-and-polish-loop.md`
+Use to run structured visual review rounds after implementation exists.
+
 ### Project continuity and editing support
 
 #### `skills/non-coding/project-continuation-tracking.md`
@@ -237,6 +297,27 @@ For scope-safe revision and change tracking.
 
 ### `templates/maintenance-runbook-template.md`
 For post-launch support and maintenance operations.
+
+### `templates/release-plan-template.md`
+For deployment scope, cutover order, smoke tests, and rollback triggers.
+
+### `templates/environment-matrix-template.md`
+For mapping environment-specific URLs, callbacks, and config dependencies.
+
+### `templates/rollback-plan-template.md`
+For documenting recovery triggers and rollback steps.
+
+### `templates/seo-page-checklist-template.md`
+For checking metadata, structure, indexing, and page quality.
+
+### `templates/content-plan-template.md`
+For planning site pages, goals, CTAs, and content ownership.
+
+### `templates/design-handoff-template.md`
+For scoping UI work from references and target screens.
+
+### `templates/ui-review-checklist-template.md`
+For structured UI review and polish rounds.
 
 ---
 
@@ -325,10 +406,30 @@ Use:
 - the matching framework pack such as Next.js or React/Vite
 - client discovery and intake
 - content and asset collection
+- content structure and page planning
+- on-page SEO and metadata
 - website launch readiness
 - client handoff and training
 - review and security
 - verification
+
+### Release or deployment-heavy change
+Use:
+- `skills/non-coding/release-planning-and-cutover.md`
+- `skills/non-coding/environment-and-config-management.md`
+- `skills/non-coding/rollback-and-recovery-planning.md`
+- `skills/non-coding/post-release-verification.md`
+- `templates/release-plan-template.md`
+
+### Design-heavy UI work
+Use:
+- `skills/non-coding/design-intake-and-ui-scope.md`
+- `skills/non-coding/design-reference-analysis.md`
+- `skills/non-coding/design-implementation-planning.md`
+- `skills/non-coding/ui-consistency-and-component-mapping.md`
+- `skills/non-coding/design-review-and-polish-loop.md`
+- `templates/design-handoff-template.md`
+- `templates/ui-review-checklist-template.md`
 
 ### Early-stage product discovery or scoping
 Use:

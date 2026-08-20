@@ -63,6 +63,9 @@ skills-and-guides/
 - `guides/project-memory-system.md` — repo-stored memory pattern for multi-session work
 - `guides/project-tracking-and-regression-system.md` — living handoff docs and risky-change baseline system
 - `guides/client-project-delivery-system.md` — client-facing delivery lifecycle from intake through maintenance
+- `guides/deployment-release-operations-system.md` — release planning, rollback, verification, and operations readiness
+- `guides/content-seo-website-operations-system.md` — content, metadata, publishing, and website operations
+- `guides/design-to-build-workflow-system.md` — turning design references into implementation and review workflows
 
 ## Core coding skills
 
@@ -109,6 +112,21 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - website launch readiness
 - client handoff and training
 - maintenance and support workflow
+- release planning and cutover
+- environment and config management
+- rollback and recovery planning
+- operational readiness and monitoring
+- post-release verification
+- content structure and page planning
+- on-page SEO and metadata
+- content publishing and update operations
+- website QA and content review
+- analytics and conversion checks
+- design intake and UI scope
+- design reference analysis
+- design implementation planning
+- UI consistency and component mapping
+- design review and polish loop
 - project continuation tracking
 - regression snapshots and baselines
 - humanizing and polishing prose
@@ -128,6 +146,13 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - `templates/client-handoff-checklist-template.md`
 - `templates/change-request-template.md`
 - `templates/maintenance-runbook-template.md`
+- `templates/release-plan-template.md`
+- `templates/environment-matrix-template.md`
+- `templates/rollback-plan-template.md`
+- `templates/seo-page-checklist-template.md`
+- `templates/content-plan-template.md`
+- `templates/design-handoff-template.md`
+- `templates/ui-review-checklist-template.md`
 
 ## Project memory templates
 
@@ -184,7 +209,7 @@ For more durable project handoff and risky-change tracking, also consider:
 1. Start with the operating guide.
 2. Use the relevant coding skill for the task.
 3. Add the relevant stack pack.
-4. Add non-coding skills when the job is research, triage, planning, automation, client delivery, docs, handoff, or text polishing.
+4. Add non-coding skills when the job is research, triage, planning, automation, client delivery, release operations, website operations, design translation, docs, handoff, or text polishing.
 5. Add project-specific rules in the target repo.
 6. Add project memory files when work becomes multi-session or multi-contributor.
 7. For active long-running repos, consider a tracked `CONTINUATION_PROMPT.md` and `REGRESSION_CHECK` system.
@@ -208,7 +233,6 @@ See `LICENSE` and `NOTICE`.
 Good future additions include:
 
 - security hardening packs
-- release/runbook packs
-- design-to-build workflow guides
-- content/SEO operations guides
 - repo bootstrapping templates
+- product strategy and discovery packs
+- QA and testing operations packs
