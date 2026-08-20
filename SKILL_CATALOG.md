@@ -15,7 +15,7 @@ Then add:
 - one or more stack packs from `skills/stacks/`
 - `skills/tdd-and-testing.md` when implementing or fixing code
 - `skills/review-and-security.md` for review-sensitive work
-- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, automation, handoff, or editing
+- non-coding skills from `skills/non-coding/` when the task is research, triage, planning, documentation, automation, client delivery, handoff, or editing
 
 ---
 
@@ -32,6 +32,9 @@ Use when work spans multiple sessions and durable repo context is needed.
 
 ### `guides/project-tracking-and-regression-system.md`
 Use when a project needs a living handoff record and before-state regression baselines for risky changes.
+
+### `guides/client-project-delivery-system.md`
+Use for client-facing work that must move cleanly from intake to launch and support.
 
 ---
 
@@ -161,6 +164,26 @@ Use to map systems, triggers, data handoffs, permissions, and ownership across a
 #### `skills/non-coding/automation-reliability-and-runbooks.md`
 Use to define retry policy, logging, recovery, replay, and operational runbooks for important automations.
 
+### Client delivery and maintenance
+
+#### `skills/non-coding/client-discovery-and-intake.md`
+Use to turn client conversations into a buildable project brief.
+
+#### `skills/non-coding/content-and-asset-collection.md`
+Use to track content, branding, assets, and client-owned inputs required for delivery.
+
+#### `skills/non-coding/revision-and-change-management.md`
+Use to classify revisions, protect scope, and record approval decisions.
+
+#### `skills/non-coding/website-launch-readiness.md`
+Use to verify client sites or web projects before going live.
+
+#### `skills/non-coding/client-handoff-and-training.md`
+Use to deliver a project cleanly with operating instructions and support boundaries.
+
+#### `skills/non-coding/maintenance-and-support-workflow.md`
+Use to structure post-launch support, triage, and maintenance rules.
+
 ### Project continuity and editing support
 
 #### `skills/non-coding/project-continuation-tracking.md`
@@ -199,6 +222,21 @@ For recording risky-change baselines and before-state evidence.
 
 ### `templates/automation-workflow-template.md`
 For designing workflow stages, triggers, integrations, and failure handling.
+
+### `templates/client-intake-template.md`
+For client discovery and initial project definition.
+
+### `templates/launch-checklist-template.md`
+For pre-launch and post-launch verification.
+
+### `templates/client-handoff-checklist-template.md`
+For final delivery, access, and operating notes.
+
+### `templates/change-request-template.md`
+For scope-safe revision and change tracking.
+
+### `templates/maintenance-runbook-template.md`
+For post-launch support and maintenance operations.
 
 ---
 
@@ -285,10 +323,12 @@ Use:
 - coding standards
 - `skills/stacks/client-website-delivery.md`
 - the matching framework pack such as Next.js or React/Vite
+- client discovery and intake
+- content and asset collection
+- website launch readiness
+- client handoff and training
 - review and security
 - verification
-- project brief and requirements during discovery
-- status handoff for delivery and revisions
 
 ### Early-stage product discovery or scoping
 Use:

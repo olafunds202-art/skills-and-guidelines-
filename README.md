@@ -62,6 +62,7 @@ skills-and-guides/
 - `guides/arena-coding-conversion-analysis.md` — what was kept, changed, or dropped from the source repo
 - `guides/project-memory-system.md` — repo-stored memory pattern for multi-session work
 - `guides/project-tracking-and-regression-system.md` — living handoff docs and risky-change baseline system
+- `guides/client-project-delivery-system.md` — client-facing delivery lifecycle from intake through maintenance
 
 ## Core coding skills
 
@@ -102,6 +103,12 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - automation and workflow design
 - integration and trigger mapping
 - automation reliability and runbooks
+- client discovery and intake
+- content and asset collection
+- revision and change management
+- website launch readiness
+- client handoff and training
+- maintenance and support workflow
 - project continuation tracking
 - regression snapshots and baselines
 - humanizing and polishing prose
@@ -116,6 +123,11 @@ The repo also includes non-coding skills in `skills/non-coding/` for:
 - `templates/continuation-prompt-template.md`
 - `templates/regression-check-template.md`
 - `templates/automation-workflow-template.md`
+- `templates/client-intake-template.md`
+- `templates/launch-checklist-template.md`
+- `templates/client-handoff-checklist-template.md`
+- `templates/change-request-template.md`
+- `templates/maintenance-runbook-template.md`
 
 ## Project memory templates
 
@@ -172,7 +184,7 @@ For more durable project handoff and risky-change tracking, also consider:
 1. Start with the operating guide.
 2. Use the relevant coding skill for the task.
 3. Add the relevant stack pack.
-4. Add non-coding skills when the job is research, triage, planning, automation, docs, handoff, or text polishing.
+4. Add non-coding skills when the job is research, triage, planning, automation, client delivery, docs, handoff, or text polishing.
 5. Add project-specific rules in the target repo.
 6. Add project memory files when work becomes multi-session or multi-contributor.
 7. For active long-running repos, consider a tracked `CONTINUATION_PROMPT.md` and `REGRESSION_CHECK` system.
